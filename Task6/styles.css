@@ -19,6 +19,7 @@ body {
   height: 100vh;
   max-width: 1400px;
   margin: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .page1 {
@@ -52,8 +53,8 @@ body {
   padding:10px 15px;
 }
 .card img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin: auto;
   object-fit: cover;
   border-radius: 20px;
@@ -66,14 +67,14 @@ body {
   color: var(--card-heading-color);
 }
 .card p {
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
   padding: 0 10px;
   color: var(--p-color);
   line-height: 20px;
   margin-bottom: 30px;
   font-weight:500;
-  width: 80%;
+  /* width: 80%; */
 }
 
 
@@ -98,7 +99,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   padding: 0px 40px;
   margin: auto;
-  gap: 10px;
+  /* gap: 10px; */
 }
 .box {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -109,8 +110,9 @@ body {
   margin-bottom: 30px;
 }
 .content-text {
-  padding: 15px 20px;
+  padding: 12px;
   text-align: left;
+ 
 }
 .box img {
   width: 100%;
@@ -118,7 +120,7 @@ body {
   object-fit: cover;
   border-radius: 15px 15px 0 0;
 }
-.content-text h2 {
+.content-heading{
   text-align: left;
   font-size: 17px;
   font-weight: 700;
@@ -161,6 +163,7 @@ body {
   .boxs {
     grid-template-columns: repeat(2, 1fr);
     padding: 0px 10px;
+    gap: 20px;
   }
   .box {
     width: 100%;
@@ -180,6 +183,7 @@ body {
   .boxs {
     grid-template-columns: repeat(1, 1fr);
     padding: 0px 10px;
+    gap: 20px;
   }
   .box {
     width: 100%;
